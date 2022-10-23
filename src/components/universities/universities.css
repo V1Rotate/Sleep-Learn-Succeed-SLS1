@@ -1,0 +1,20 @@
+.sls1__universities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sls1__universities div {
+  flex: 1;
+  max-width: 130px;
+  min-width: 120px;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sls1__universities img {
+  width: 140px;
+}

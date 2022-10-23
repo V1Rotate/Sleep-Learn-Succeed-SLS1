@@ -1,0 +1,119 @@
+.sls1__whatsls1 {
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(174, 174, 174, 1) 0%,
+    rgba(174, 174, 174, 1) 30%,
+    rgba(239, 239, 239, 1) 50%,
+    rgba(239, 239, 239, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(174, 174, 174, 1) 0%,
+    rgba(174, 174, 174, 1) 30%,
+    rgba(239, 239, 239, 1) 50%,
+    rgba(239, 239, 239, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(174, 174, 174, 1) 0%,
+    rgba(174, 174, 174, 1) 30%,
+    rgba(239, 239, 239, 1) 50%,
+    rgba(239, 239, 239, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EFEFEF', endColorstr='#AEAEAE', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(174, 174, 174, 1) 0%,
+    rgba(174, 174, 174, 1) 30%,
+    rgba(239, 239, 239, 1) 50%,
+    rgba(239, 239, 239, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(174, 174, 174, 1) 0%,
+    rgba(174, 174, 174, 1) 30%,
+    rgba(239, 239, 239, 1) 50%,
+    rgba(239, 239, 239, 1) 100%
+  );
+}
+
+.sls1__whatsls1-heading {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2em;
+}
+
+.sls1__whatsls1-heading h1 {
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 42px;
+  line-height: 48px;
+  letter-spacing: -0.04em;
+  color: #dd691e;
+  max-width: 700px;
+}
+
+.sls1__whatsls1-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.sls1__whatsls1-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sls1__whatsls1-image img {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 1px 1px 8px 19px rgba(210, 210, 210, 0.33);
+  -webkit-box-shadow: 1px 1px 8px 19px rgba(210, 210, 210, 0.33);
+  -moz-box-shadow: 1px 1px 8px 19px rgba(210, 210, 210, 0.33);
+}
+
+.sls1__whatsls1-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.sls1__whatsls1-heading p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  color: #065285;
+  max-width: 510px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .sls1__whatsls1-heading h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .sls1__whatsls1-section {
+    flex-direction: column;
+  }
+  .sls1__whatsls1-image {
+    width: 120%;
+    margin-bottom: 30px;
+  }
+  .sls1__whatsls1-container {
+    width: 300px;
+  }
+}
