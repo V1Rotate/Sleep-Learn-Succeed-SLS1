@@ -35,10 +35,23 @@
 
 @media screen and (max-width: 990px) {
   .sls1__blog-container {
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .sls1__blog-heading h1 {
     font-size: 38px;
     line-height: 44px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sls1__blog-heading h1 {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .sls1__blog-heading {
+    margin-bottom: 2rem;
   }
 }
