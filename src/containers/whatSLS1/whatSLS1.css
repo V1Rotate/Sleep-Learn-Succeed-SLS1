@@ -91,21 +91,15 @@
   flex-wrap: wrap;
 }
 
-.sls1__whatsls1-heading p {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 30px;
-  color: #065285;
-  max-width: 510px;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 950px) {
   .sls1__whatsls1-heading h1 {
     font-size: 28px;
     line-height: 32px;
   }
+  .sls1__whatsls1-image {
+    max-width: 630px;
+  }
+
   .sls1__whatsls1-section {
     flex-direction: column;
   }
@@ -114,6 +108,32 @@
     margin-bottom: 30px;
   }
   .sls1__whatsls1-container {
-    width: 300px;
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .sls1__whatsls1-heading h1 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .sls1__whatsls1-container {
+    width: 220px;
+  }
+  .sls1__whatsls1-heading {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .sls1__whatsls1-heading h1 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .sls1__whatsls1-container {
+    max-width: 200px;
+    margin-left: 0;
   }
 }
