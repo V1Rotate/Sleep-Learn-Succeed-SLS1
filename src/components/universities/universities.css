@@ -18,3 +18,9 @@
 .sls1__universities img {
   width: 140px;
 }
+
+@media screen and (max-width: 460px) {
+  .sls1__universities img {
+    width: 110px;
+  }
+}
