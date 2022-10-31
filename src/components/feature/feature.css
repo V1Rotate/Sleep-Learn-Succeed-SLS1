@@ -10,7 +10,7 @@
 
 .sls1__features-container__feature-title {
   flex: 1;
-  max-width: 180px;
+  max-width: 150px;
   margin-right: 2rem;
 }
 
@@ -19,38 +19,37 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.04em;
+  padding-top: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sls1__features-container__feature-title div {
-  width: 38px;
+  width: 138px;
   height: 3px;
   box-shadow: 0 3px 4px #dd691e;
   margin-bottom: 0.25rem;
 }
 
-.sls1__features-container_feature-text {
+.feature-text {
   flex: 2;
   max-width: 790px;
   display: flex;
   font-size: 20px;
 }
 
-.sls1__features-container_feature-text p {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-}
-
 @media screen and (max-width: 550px) {
-  .sls1__features-container__feature-title h1 {
-    font-size: 14px;
-    line-height: 22px;
+  .sls1__features-container__feature-title div h1 {
+    font-size: 18px;
+    line-height: 18px;
   }
-  .sls1__features-container_feature-text {
+  .feature-text {
     font-size: 16px;
+    padding-top: 15px;
+    margin-top: 55px;
   }
   .sls1__features-container__feature {
     margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
   }
 }
