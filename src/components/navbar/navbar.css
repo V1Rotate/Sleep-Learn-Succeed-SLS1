@@ -122,4 +122,10 @@
   .sls1__navbar-menu {
     display: flex;
   }
+  .sls1__navbar-links_logo img {
+    width: 100px;
+  }
+  .sls1__navbar-menu svg {
+    width: 20px;
+  }
 }
