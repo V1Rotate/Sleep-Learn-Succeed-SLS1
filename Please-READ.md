@@ -20,4 +20,5 @@ people who are actively learning and willing to learn and succeed faster.
 **Headphone image - Vega E-Cam headphones, found on Google Images. Just copied and removed all the labels.
 
 --- Technologies used---
-Project developed with React.JS, CSS and HTML.
+
+Project developed with Reac, Javascript, CSS and HTML.
