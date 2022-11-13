@@ -1,3 +1,6 @@
+--- Technologies used---
+Project developed with Reac, Javascript, CSS and HTML.
+
 --- General Idea ---
 I remember a scene from an old movie where a hero had to learn some material from the book overnight, but he was so tired and was falling asleep while 
 reading a book. He would go for rest till the morning, but his relative was so strict with him and pushed him to read the book anyway. And that person 
@@ -19,6 +22,4 @@ people who are actively learning and willing to learn and succeed faster.
 *The website idea and the information are the results of my imagination and are not true.
 **Headphone image - Vega E-Cam headphones, found on Google Images. Just copied and removed all the labels.
 
---- Technologies used---
 
-Project developed with Reac, Javascript, CSS and HTML.
